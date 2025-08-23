@@ -5,7 +5,7 @@ gsap.from("#home p", {x:100, opacity:0, duration:1, delay:1.5});
 gsap.from(".btn", {scale:0, opacity:0, duration:1, delay:2});
 
 gsap.from(".git-card", {
-  scrollTrigger: "#blogs",
+  scrollTrigger: "blogs",
   opacity: 0,
   y: 50,
   duration: 1,
